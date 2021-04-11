@@ -1,0 +1,86 @@
+html{
+    height: 100%;
+  }
+   body{
+   height: 100%; 
+   margin: 0;
+   padding: 0;
+   background-color: #4CAF50;
+    
+  }
+  .stylecontent{
+    background-color: white;
+    margin-bottom: 30px;
+    min-height: 14cm;
+    padding-top: 1.5cm;
+    padding-bottom: 1.5cm;
+  }
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(51, 50, 50);
+    color: rgb(207, 205, 205);
+  }
+  
+  .topnav a.active {
+    background-color: rgb(51, 50, 50);
+    color: rgb(207, 205, 205);
+  }
+
+
+
+
+
+.navigation{
+    background-color: rgb(18, 180, 18);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+.profile-icon-menu{
+    
+    margin-left: auto;
+}
+.contents{
+    margin: auto;
+    margin-top: 10px;
+    padding: 40px;
+    width:70% ;
+    min-height: 7cm;
+    border-radius: 5px;
+    box-shadow:2px 3px 4px 5px rgb(105, 102, 102);
+    text-align: center;
+}
+.menu{
+    padding-top: 10px;
+}
+.headeruser {
+    text-align: center;
+}
+.friends{
+    text-align: center;
+}
+.icons{
+    margin: auto;
+    text-align: center;
+}
+footer{
+    background-color: #4CAF50;
+    text-align: center;
+    min-height: fit-content;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    margin-top: 40px;
+}
